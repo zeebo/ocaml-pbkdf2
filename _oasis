@@ -1,0 +1,13 @@
+Name: pbkdf2
+Version: 0.0.1
+Synopsis: PBKDF2 as in RFC 2898
+Authors: Jeff Wendling <leterip@gmail.com>
+License: ISC
+
+OASISFormat: 0.4
+Plugins: META (0.4), DevFiles (0.4)
+BuildTools: ocamlbuild
+
+Library "mirage-ntp"
+  Path: src
+  Modules: Pbkdf2
